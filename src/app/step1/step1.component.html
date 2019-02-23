@@ -1,3 +1,10 @@
-<p>
-  step1 works!
-</p>
+<form [formGroup]="form" >
+  <input type="text" formControlName="firstName">
+  <input type="text" formControlName="lastName">
+</form>
+
+<br>
+<form [formGroup]="form2" >
+  <input type="text" formControlName="email">
+  <input type="checkbox" formControlName="isTunisian">
+</form>
